@@ -1,0 +1,11 @@
+.. packetary-specs documentation master file
+
+================================
+Packetary Project Specifications
+================================
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/*
