@@ -172,7 +172,7 @@ htmlhelp_basename = 'Packetary-Specsdoc'
 confdir = os.path.dirname(os.path.abspath(__file__))
 workdir = os.path.join(confdir, "..", "..")
 releases = [os.path.basename(dirname) for dirname in
-            glob.iglob("{0}/specs/[0-9]*.[0-9]*(.[0.9]*)*".format(workdir))]
+            glob.iglob("{0}/specs/[0-9]*.[0-9]*.[0.9]*".format(workdir))]
 
 with open(os.path.join(confdir, 'header.rst.template')) as f:
     header = f.read()
